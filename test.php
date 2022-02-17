@@ -1,3 +1,4 @@
+<?php
 class Chien {
     public $Nom;
     public $Age;
@@ -7,7 +8,7 @@ class Chien {
         $this->Nom = $Nom;
         $this->Age = $Age;
         $this->Race = $Race;
-    };
+    }
     function get_Nom() {
         return $this->Nom;
     }
